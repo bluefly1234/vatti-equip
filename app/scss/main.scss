@@ -170,6 +170,126 @@ $cover-sprite-dimensions: true;
     right: 0;
 }
 
-#cover {
+#page2-bg {
+    top: 28px;
+    left: 0;
+    $page2-bg: '../images/page2-bg.png';
+    width: image-width($page2-bg);
+    height: image-height($page2-bg);
+    background-image: url($page2-bg);
+}
+
+#item1 {
+    top: 0;
+    right: 0;
+    $item1: '../images/item1.png';
+    width: image-width($item1);
+    height: image-height($item1);
+    background-image: url($item1);
+}
+
+#item2 {
+    right: 0;
+    bottom: 0;
+    $item2: '../images/item2.png';
+    width: image-width($item2);
+    height: image-height($item2);
+    background-image: url($item2);
+}
+
+#page3-bg {
+    top: 0;
+    left: 0;
+    $page3-bg: '../images/page3-bg.png';
+    width: image-width($page3-bg);
+    height: image-height($page3-bg);
+    background-image: url($page3-bg);
+}
+
+#item3 {
+    top: 0;
+    right: 0;
+    $item3: '../images/item3.png';
+    width: image-width($item3);
+    height: image-height($item3);
+    background-image: url($item3);
+}
+
+#item4 {
+    right: 0;
+    bottom: 0;
+    $item4: '../images/item4.png';
+    width: image-width($item4);
+    height: image-height($item4);
+    background-image: url($item4);
+}
+
+#page4-bg {
+    top: 0;
+    left: 0;
+    $page4-bg: '../images/page4-bg.png';
+    width: image-width($page4-bg);
+    height: image-height($page4-bg);
+    background-image: url($page4-bg);
+}
+
+#item5 {
+    top: 0;
+    right: 0;
+    $item5: '../images/item5.png';
+    width: image-width($item5);
+    height: image-height($item5);
+    background-image: url($item5);
+}
+
+#item6 {
+    right: 0;
+    bottom: 0;
+    $item6: '../images/item6.png';
+    width: image-width($item6);
+    height: image-height($item6);
+    background-image: url($item6);
+}
+
+#page5-bg {
+    top: 29px;
+    left: 0;
+    $page5-bg: '../images/page5-bg.png';
+    width: image-width($page5-bg);
+    height: image-height($page5-bg);
+    background-image: url($page5-bg);
+}
+
+#item7 {
+    top: 0;
+    right: 0;
+    $item7: '../images/item7.png';
+    width: image-width($item7);
+    height: image-height($item7);
+    background-image: url($item7);
+}
+
+#qrcode {
+    bottom: 125px;
+    left: 69px;
+}
+
+#fake-qrcode {
+    width: 100%;
+    bottom: 0;
+    @include opacity(0);
+}
+
+#qr-des {
+    bottom: 181px;
+    left: 300px;
+    $qrdes: '../images/qr-des.png';
+    width: image-width($qrdes);
+    height: image-height($qrdes);
+    background-image: url($qrdes);
+}
+
+
+#cover, #page2, #page3, #page4, #page5 {
     display: none;
 }
