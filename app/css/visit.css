@@ -1,0 +1,433 @@
+@charset "UTF-8";
+/*!
+**  Author: Kale Chao | FakeCityMan
+**  Blog: kalechao87@github.io
+**/
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+a {
+  background: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+img {
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+* Hide visually and from screenreaders, but maintain layout
+*/
+.invisible {
+  visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+ Author's custom styles
+ ========================================================================== */
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "daofeng";
+  src: url('../fonts/daofeng.ttf?1466303235') format('truetype');
+}
+/* ==========================================================================
+ 瀹氫箟鍙橀噺
+ ========================================================================== */
+/* ==========================================================================
+瀹氫箟鍙橀噺缁撴潫
+========================================================================== */
+body {
+  font-family: 'Avenir Next', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ede2cc;
+  color: #000;
+  overflow: hidden;
+  font-size: 24px;
+}
+
+.daofeng {
+  font-family: 'daofeng';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ab-element {
+  position: absolute;
+}
+
+.block-img {
+  display: block;
+  max-width: 100%;
+}
+
+.ab-img {
+  position: absolute;
+}
+
+.ab-block-img {
+  display: block;
+  position: absolute;
+  max-width: 100%;
+}
+
+.hvcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.hcenter {
+  position: absolute;
+  left: 50%;
+  -moz-transform: translate3d(-50%, 0, 0);
+  -ms-transform: translate3d(-50%, 0, 0);
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+}
+
+.vcenter {
+  position: absolute;
+  top: 50%;
+  -moz-transform: translate3d(0, -50%, 0);
+  -ms-transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.scrolly-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+
+#all {
+  background-image: url("../images/universal-bg.jpg");
+}
+
+.photo-all {
+  position: absolute;
+  top: 72px;
+  left: 50%;
+  width: 502px;
+  height: 721px;
+  margin-left: -251px;
+}
+
+.photo-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 383px;
+  height: 567px;
+  background: rgba(255, 0, 0, 0.3);
+  overflow: hidden;
+  -moz-transform: translate3d(-50%, 0, 0);
+  -ms-transform: translate3d(-50%, 0, 0);
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+}
+
+.upload-photo {
+  max-width: 100%;
+}
+
+.photo-dec {
+  width: 275px;
+  height: 83px;
+  background-image: url("../images/dec.png");
+  top: -45px;
+}
+
+#generate-words {
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  width: 420px;
+  height: 108px;
+  margin-left: -210px;
+}
+
+#make-too {
+  width: 431px;
+  height: 77px;
+  background-image: url("../images/make-too.png");
+  top: 880px;
+  left: 96px;
+}
+
+/*# sourceMappingURL=visit.css.map */

@@ -1,0 +1,175 @@
+/*!
+**  Author: Kale Chao | FakeCityMan
+**  Blog: kalechao87@github.io
+**/
+@import "normalize-reset", "compass/css3";
+
+/*
+ * Remove the gap between images and the bottom of their containers
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+* Hide visually and from screenreaders, but maintain layout
+*/
+
+.invisible {
+   visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+ Author's custom styles
+ ========================================================================== */
+ *,
+ *:after,
+ *:before {
+    @include box-sizing(border-box);
+    // -webkit-user-select:none;
+    // -webkit-touch-callout:none;
+ }
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+/* ==========================================================================
+ 定义变量
+ ========================================================================== */
+$main-bgcolor: #fafafa;
+$main-color: #000;
+$main-red: #e73202;
+
+/* ==========================================================================
+定义变量结束
+========================================================================== */
+
+body {
+    font-family: 'Avenir Next', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: $main-bgcolor;
+    color: $main-color;
+    overflow: hidden;
+    font: {
+        size: 24px;
+    }
+}
+
+
+.ab-element {
+    position: absolute;
+}
+
+.block-img {
+    display: block;
+    max-width: 100%;
+}
+
+.ab-img {
+    position: absolute;
+}
+
+.ab-block-img {
+    display: block;
+    position: absolute;
+    max-width: 100%;
+}
+
+.hvcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate3d(-50%, -50%, 0));
+}
+
+.hcenter {
+    position: absolute;
+    left: 50%;
+    @include transform(translate3d(-50%, 0, 0));
+}
+
+.vcenter {
+    position: absolute;
+    top: 50%;
+    @include transform(translate3d(0, -50%, 0));
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include background-size(cover);
+    overflow: hidden;
+}
+
+.scrolly-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
+}
+
+#common-bg {
+    background-image: url('../images/common-bg.jpg');
+}
+
+/*=================cover start=======================*/
+// cover sprite 设置
+$cover-layout:smart;
+$cover-spacing:10px;
+$cover-sprite-dimensions: true;
+@import "cover/*.png";
+@include  all-cover-sprites;
+
+#cover-road {
+    bottom: 29px;
+    left: 0;
+}
+
+#cover-person {
+    bottom: -90px;
+    left: 33px;
+}
+
+#cover-logo {
+    top: 83px;
+    left: 98px;
+}
+
+#cover-slogan {
+    top: 68px;
+    right: 0;
+}
+
+#cover {
+    display: none;
+}
