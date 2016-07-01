@@ -261,7 +261,7 @@ $cover-sprite-dimensions: true;
 }
 
 #item7 {
-    top: 0;
+    top: 98px;
     right: 0;
     $item7: '../images/item7.png';
     width: image-width($item7);
@@ -290,6 +290,6 @@ $cover-sprite-dimensions: true;
 }
 
 
-#cover, #page2, #page3, #page4, #page5 {
+#cover, #page2, #page3, #page4, #page51 {
     display: none;
 }

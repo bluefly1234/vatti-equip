@@ -454,7 +454,7 @@ body {
 #item3 {
   top: 0;
   right: 0;
-  width: 563px;
+  width: 562px;
   height: 485px;
   background-image: url("../images/item3.png");
 }
@@ -486,7 +486,7 @@ body {
 #item6 {
   right: 0;
   bottom: 0;
-  width: 579px;
+  width: 587px;
   height: 653px;
   background-image: url("../images/item6.png");
 }
@@ -500,10 +500,10 @@ body {
 }
 
 #item7 {
-  top: 0;
+  top: 98px;
   right: 0;
-  width: 640px;
-  height: 748px;
+  width: 508px;
+  height: 652px;
   background-image: url("../images/item7.png");
 }
 
@@ -527,7 +527,7 @@ body {
   background-image: url("../images/qr-des.png");
 }
 
-#cover, #page2, #page3, #page4, #page5 {
+#cover, #page2, #page3, #page4, #page51 {
   display: none;
 }
 
