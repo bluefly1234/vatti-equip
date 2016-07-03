@@ -142,6 +142,64 @@ body {
     background-image: url('../images/common-bg.jpg');
 }
 
+/*=================misc start=======================*/
+// misc sprite 设置
+$misc-layout:smart;
+$misc-spacing:10px;
+$misc-sprite-dimensions: true;
+@import "misc/*.png";
+@include  all-misc-sprites;
+
+#arrow-up {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    @include transform(translate3d(-50%, 0, 0));
+}
+
+// music=======================================================================
+#music-control {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 58px;
+    height: 58px;
+    margin: 24px;
+}
+
+#music-control-main {
+    position: absolute;
+    @extend .misc-music-bg;
+}
+
+.music-control-icon {
+    position: absolute;
+    @extend .misc-music-icon;
+    top: 50%;
+    left: 50%;
+    @include transform(translate3d(-50%, -50%, 0));
+}
+// music=======================================================================
+
+#music-control, #arrow-up {
+    visibility: hidden;
+}
+
+#loading-num {
+    position: absolute;
+    top: 45%;;
+    width: 100%;
+    z-index: 999;
+    text: {
+        align: center;
+    }
+    font: {
+        size: 56px;
+    }
+    color: #ec9710;
+}
+
 /*=================cover start=======================*/
 // cover sprite 设置
 $cover-layout:smart;
@@ -290,6 +348,6 @@ $cover-sprite-dimensions: true;
 }
 
 
-#cover, #page2, #page3, #page4, #page51 {
+#cover, #page2, #page3, #page4, #page5 {
     display: none;
 }

@@ -369,6 +369,77 @@ body {
   background-image: url("../images/common-bg.jpg");
 }
 
+/*=================misc start=======================*/
+.misc-sprite, .misc-music-bg, #music-control-main, .misc-music-icon, .music-control-icon, .misc-up {
+  background-image: url('../images/misc-s11e3f1fa5f.png');
+  background-repeat: no-repeat;
+}
+
+.misc-music-bg, #music-control-main {
+  background-position: 0 -60px;
+  height: 58px;
+  width: 58px;
+}
+
+.misc-music-icon, .music-control-icon {
+  background-position: 0 -29px;
+  height: 31px;
+  width: 19px;
+}
+
+.misc-up {
+  background-position: 0 0;
+  height: 29px;
+  width: 50px;
+}
+
+#arrow-up {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -moz-transform: translate3d(-50%, 0, 0);
+  -ms-transform: translate3d(-50%, 0, 0);
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+}
+
+#music-control {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 58px;
+  height: 58px;
+  margin: 24px;
+}
+
+#music-control-main {
+  position: absolute;
+}
+
+.music-control-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#music-control, #arrow-up {
+  visibility: hidden;
+}
+
+#loading-num {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  font-size: 56px;
+  color: #ec9710;
+}
+
 /*=================cover start=======================*/
 .cover-sprite, .cover-logo, .cover-person, .cover-road, .cover-slogan {
   background-image: url('../images/cover-s36e0642969.png');
@@ -527,7 +598,7 @@ body {
   background-image: url("../images/qr-des.png");
 }
 
-#cover, #page2, #page3, #page4, #page51 {
+#cover, #page2, #page3, #page4, #page5 {
   display: none;
 }
 
