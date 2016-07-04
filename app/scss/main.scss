@@ -243,7 +243,34 @@ $cover-sprite-dimensions: true;
     $item1: '../images/item1.png';
     width: image-width($item1);
     height: image-height($item1);
-    background-image: url($item1);
+    // background-image: url($item1);
+}
+
+#item1-shadow {
+    top: 0;
+    left: 148px;
+    $item1-shadow: '../images/item1-shadow.png';
+    width: image-width($item1-shadow);
+    height: image-height($item1-shadow);
+    background-image: url($item1-shadow);
+}
+
+#item1-content {
+    top: 36px;
+    left: 195px;
+    $item1-content: '../images/item1-content.png';
+    width: image-width($item1-content);
+    height: image-height($item1-content);
+    background-image: url($item1-content);
+}
+
+#item1-pro {
+    top: 163px;
+    left: 0;
+    $item1-pro: '../images/item1-pro.png';
+    width: image-width($item1-pro);
+    height: image-height($item1-pro);
+    background-image: url($item1-pro);
 }
 
 #item2 {
@@ -252,7 +279,34 @@ $cover-sprite-dimensions: true;
     $item2: '../images/item2.png';
     width: image-width($item2);
     height: image-height($item2);
-    background-image: url($item2);
+    // background-image: url($item2);
+}
+
+#item2-shadow {
+    right: 0;
+    bottom: 0;
+    $item2-shadow: '../images/item2-shadow.png';
+    width: image-width($item2-shadow);
+    height: image-height($item2-shadow);
+    background-image: url($item2-shadow);
+}
+
+#item2-content {
+    top: 295px;
+    left: 120px;
+    $item2-content: '../images/item2-content.png';
+    width: image-width($item2-content);
+    height: image-height($item2-content);
+    background-image: url($item2-content);
+}
+
+#item2-pro {
+    top: 0px;
+    left: 256px;
+    $item2-pro: '../images/item2-pro.png';
+    width: image-width($item2-pro);
+    height: image-height($item2-pro);
+    background-image: url($item2-pro);
 }
 
 #page3-bg {
@@ -270,7 +324,34 @@ $cover-sprite-dimensions: true;
     $item3: '../images/item3.png';
     width: image-width($item3);
     height: image-height($item3);
-    background-image: url($item3);
+    // background-image: url($item3);
+}
+
+#item3-shadow {
+    top: 0;
+    right: 0;
+    $item3-shadow: '../images/item3-shadow.png';
+    width: image-width($item3-shadow);
+    height: image-height($item3-shadow);
+    background-image: url($item3-shadow);
+}
+
+#item3-content {
+    top: 75px;
+    left: 52px;
+    $item3-content: '../images/item3-content.png';
+    width: image-width($item3-content);
+    height: image-height($item3-content);
+    background-image: url($item3-content);
+}
+
+#item3-pro {
+    top: 294px;
+    left: 24px;
+    $item3-pro: '../images/item3-pro.png';
+    width: image-width($item3-pro);
+    height: image-height($item3-pro);
+    background-image: url($item3-pro);
 }
 
 #item4 {
@@ -279,7 +360,34 @@ $cover-sprite-dimensions: true;
     $item4: '../images/item4.png';
     width: image-width($item4);
     height: image-height($item4);
-    background-image: url($item4);
+    // background-image: url($item4);
+}
+
+#item4-shadow {
+    bottom: 0;
+    right: 0;
+    $item4-shadow: '../images/item4-shadow.png';
+    width: image-width($item4-shadow);
+    height: image-height($item4-shadow);
+    background-image: url($item4-shadow);
+}
+
+#item4-content {
+    bottom: 63px;
+    left: 1px;
+    $item4-content: '../images/item4-content.png';
+    width: image-width($item4-content);
+    height: image-height($item4-content);
+    background-image: url($item4-content);
+}
+
+#item4-pro {
+    top: 0;
+    left: 0;
+    $item4-pro: '../images/item4-pro.png';
+    width: image-width($item4-pro);
+    height: image-height($item4-pro);
+    background-image: url($item4-pro);
 }
 
 #page4-bg {
@@ -297,7 +405,34 @@ $cover-sprite-dimensions: true;
     $item5: '../images/item5.png';
     width: image-width($item5);
     height: image-height($item5);
-    background-image: url($item5);
+    // background-image: url($item5);
+}
+
+#item5-shadow {
+    top: 0;
+    right: 0;
+    $item5-shadow: '../images/item5-shadow.png';
+    width: image-width($item5-shadow);
+    height: image-height($item5-shadow);
+    background-image: url($item5-shadow);
+}
+
+#item5-content {
+    top: 79px;
+    left: 0;
+    $item5-content: '../images/item5-content.png';
+    width: image-width($item5-content);
+    height: image-height($item5-content);
+    background-image: url($item5-content);
+}
+
+#item5-pro {
+    top: 154px;
+    left: 63px;
+    $item5-pro: '../images/item5-pro.png';
+    width: image-width($item5-pro);
+    height: image-height($item5-pro);
+    background-image: url($item5-pro);
 }
 
 #item6 {
@@ -306,7 +441,34 @@ $cover-sprite-dimensions: true;
     $item6: '../images/item6.png';
     width: image-width($item6);
     height: image-height($item6);
-    background-image: url($item6);
+    // background-image: url($item6);
+}
+
+#item6-shadow {
+    bottom: 0;
+    left: 0;
+    $item6-shadow: '../images/item6-shadow.png';
+    width: image-width($item6-shadow);
+    height: image-height($item6-shadow);
+    background-image: url($item6-shadow);
+}
+
+#item6-content {
+    top: 0;
+    right: 42px;
+    $item6-content: '../images/item6-content.png';
+    width: image-width($item6-content);
+    height: image-height($item6-content);
+    background-image: url($item6-content);
+}
+
+#item6-pro {
+    top: 180px;
+    right: 0;
+    $item6-pro: '../images/item6-pro.png';
+    width: image-width($item6-pro);
+    height: image-height($item6-pro);
+    background-image: url($item6-pro);
 }
 
 #page5-bg {
@@ -324,7 +486,34 @@ $cover-sprite-dimensions: true;
     $item7: '../images/item7.png';
     width: image-width($item7);
     height: image-height($item7);
-    background-image: url($item7);
+    // background-image: url($item7);
+}
+
+#item7-shadow {
+    right: 0;
+    bottom: 0;
+    $item7-shadow: '../images/item7-shadow.png';
+    width: image-width($item7-shadow);
+    height: image-height($item7-shadow);
+    background-image: url($item7-shadow);
+}
+
+#item7-content {
+    top: 230px;
+    left: 34px;
+    $item7-content: '../images/item7-content.png';
+    width: image-width($item7-content);
+    height: image-height($item7-content);
+    background-image: url($item7-content);
+}
+
+#item7-pro {
+    top: 0;
+    left: 0;
+    $item7-pro: '../images/item7-pro.png';
+    width: image-width($item7-pro);
+    height: image-height($item7-pro);
+    background-image: url($item7-pro);
 }
 
 #qrcode {
