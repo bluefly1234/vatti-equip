@@ -174,8 +174,8 @@ new mo.Loader(sourceArr,{
           page2Show.set('#page2', {autoAlpha: 1, display: 'block'})
           .fromTo('#page2', 0.6, {autoAlpha: 0}, {autoAlpha: 1})
           .add('page2Item')
-          .fromTo('#item1', 0.6, {autoAlpha: 0, x: 640, y: -300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page2Item-=0.3')
-          .fromTo('#item2', 0.6, {autoAlpha: 0, x: -640, y: 300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page2Item-=0.3')
+          .fromTo('#item1', 0.5, {autoAlpha: 0, x: 640, y: -300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page2Item-=0.3')
+          .fromTo('#item2', 0.5, {autoAlpha: 0, x: -640, y: 300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page2Item')
       }
 
       function hidePage2() {
@@ -189,8 +189,8 @@ new mo.Loader(sourceArr,{
               }
           });
           page2Hide.add('page2HideStart')
-          .to('#item1', 0.6, {autoAlpha: 0, x: 640, y: -300, force3D: true}, 'page2HideStart')
-          .to('#item2', 0.6, {autoAlpha: 0, x: -640, y: 300, force3D: true}, 'page2HideStart')
+          .to('#item1', 0.5, {autoAlpha: 0, x: 640, y: -300, force3D: true}, 'page2HideStart')
+          .to('#item2', 0.5, {autoAlpha: 0, x: -640, y: 300, force3D: true}, 'page2HideStart')
           .to('#page2', 0.5, {autoAlpha: 0}, '-=0.1')
           .set('#page2', {display: 'none'})
       }
@@ -219,8 +219,8 @@ new mo.Loader(sourceArr,{
           page3Show.set('#page3', {autoAlpha: 1, display: 'block'})
           .fromTo('#page3', 0.6, {autoAlpha: 0}, {autoAlpha: 1})
           .add('page3Item')
-          .fromTo('#item3', 0.6, {autoAlpha: 0, x: -640, y: -300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page3Item-=0.3')
-          .fromTo('#item4', 0.6, {autoAlpha: 0, x: 640, y: 300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page3Item-=0.3')
+          .fromTo('#item3', 0.5, {autoAlpha: 0, x: -640, y: -300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page3Item-=0.3')
+          .fromTo('#item4', 0.5, {autoAlpha: 0, x: 640, y: 300}, {autoAlpha: 1, x: 0, y: 0, force3D: true}, 'page3Item')
       }
 
       function hidePage3() {
@@ -234,8 +234,8 @@ new mo.Loader(sourceArr,{
               }
           });
           page3Hide.add('page3HideStart')
-          .to('#item3', 0.6, {autoAlpha: 0, x: -640, y: -300, force3D: true}, 'page3HideStart')
-          .to('#item4', 0.6, {autoAlpha: 0, x: 640, y: 300, force3D: true}, 'page3HideStart')
+          .to('#item3', 0.5, {autoAlpha: 0, x: -640, y: -300, force3D: true}, 'page3HideStart')
+          .to('#item4', 0.5, {autoAlpha: 0, x: 640, y: 300, force3D: true}, 'page3HideStart')
           .to('#page3', 0.5, {autoAlpha: 0}, '-=0.1')
           .set('#page3', {display: 'none'})
       }
@@ -264,8 +264,8 @@ new mo.Loader(sourceArr,{
           page4Show.set('#page4', {autoAlpha: 1, display: 'block'})
           .fromTo('#page4', 0.6, {autoAlpha: 0}, {autoAlpha: 1})
           .add('page4Item')
-          .fromTo('#item5', 0.6, {autoAlpha: 0, x: -640}, {autoAlpha: 1, x: 0, y: 0}, 'page4Item-=0.3')
-          .fromTo('#item6', 0.6, {autoAlpha: 0, x: 640}, {autoAlpha: 1, x: 0, y: 0}, 'page4Item-=0.3')
+          .fromTo('#item5', 0.5, {autoAlpha: 0, x: -640}, {autoAlpha: 1, x: 0, y: 0}, 'page4Item-=0.3')
+          .fromTo('#item6', 0.5, {autoAlpha: 0, x: 640}, {autoAlpha: 1, x: 0, y: 0}, 'page4Item')
         }
 
         function hidePage4() {
@@ -279,8 +279,8 @@ new mo.Loader(sourceArr,{
                 }
             });
             page4Hide.add('page4HideStart')
-            .to('#item5', 0.6, {autoAlpha: 0, x: -640, y: -300, force3D: true}, 'page4HideStart')
-            .to('#item6', 0.6, {autoAlpha: 0, x: 640, y: 300, force3D: true}, 'page4HideStart')
+            .to('#item5', 0.5, {autoAlpha: 0, x: -640, y: -300, force3D: true}, 'page4HideStart')
+            .to('#item6', 0.5, {autoAlpha: 0, x: 640, y: 300, force3D: true}, 'page4HideStart')
             .to('#page4', 0.5, {autoAlpha: 0}, '-=0.1')
             .set('#page4', {display: 'none'})
         }
@@ -314,9 +314,9 @@ new mo.Loader(sourceArr,{
           });
           page5Show.set('#page5', {autoAlpha: 1, display: 'block'})
           .fromTo('#page5', 0.6, {autoAlpha: 0}, {autoAlpha: 1})
-          .fromTo('#item7', 0.6, {autoAlpha: 0, x: 600, y: 300}, {autoAlpha: 1, x: 0, y: 0}, '-=0.3')
-          .fromTo('#qrcode', 0.6, {autoAlpha: 0, x: -300}, {autoAlpha: 1, x: 0, ease: Back.easeOut.config(0.8)}, '-=0.2')
-          .fromTo('#qr-des', 0.6, {autoAlpha: 0, x: 300}, {autoAlpha: 1, x: 0, ease: Back.easeOut.config(0.8)}, '-=0.6')
+          .fromTo('#item7', 0.5, {autoAlpha: 0, x: 600, y: 300}, {autoAlpha: 1, x: 0, y: 0}, '-=0.3')
+          .fromTo('#qrcode', 0.5, {autoAlpha: 0, x: -300}, {autoAlpha: 1, x: 0, ease: Back.easeOut.config(0.8)}, '-=0.2')
+          .fromTo('#qr-des', 0.5, {autoAlpha: 0, x: 300}, {autoAlpha: 1, x: 0, ease: Back.easeOut.config(0.8)}, '-=0.5')
       }
 
       function hidePage5() {
@@ -324,9 +324,9 @@ new mo.Loader(sourceArr,{
               onComplete: showPage4
           });
           page5Hide.add('page5HideStart')
-          .to('#qrcode', 0.6, {autoAlpha: 0, x: -300, force3D: true}, 'page5HideStart')
-          .to('#qr-des', 0.6, {autoAlpha: 0, x: 300, force3D: true}, 'page5HideStart')
-          .to('#item7', 0.6, {autoAlpha: 0, x: 600, y: 300, force3D: true}, 'page5HideStart')
+          .to('#qrcode', 0.5, {autoAlpha: 0, x: -300, force3D: true}, 'page5HideStart')
+          .to('#qr-des', 0.5, {autoAlpha: 0, x: 300, force3D: true}, 'page5HideStart')
+          .to('#item7', 0.5, {autoAlpha: 0, x: 600, y: 300, force3D: true}, 'page5HideStart')
           .to('#page5', 0.5, {autoAlpha: 0}, '-=0.1')
           .set('#page5', {display: 'none'})
       }
