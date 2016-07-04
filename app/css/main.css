@@ -579,8 +579,8 @@ body {
 }
 
 #qrcode {
-  bottom: 125px;
-  left: 69px;
+  bottom: 116px;
+  left: 89px;
 }
 
 #fake-qrcode {
@@ -591,9 +591,9 @@ body {
 }
 
 #qr-des {
-  bottom: 181px;
-  left: 300px;
-  width: 310px;
+  bottom: 169px;
+  left: 342px;
+  width: 253px;
   height: 115px;
   background-image: url("../images/qr-des.png");
 }

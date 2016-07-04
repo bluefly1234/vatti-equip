@@ -328,8 +328,8 @@ $cover-sprite-dimensions: true;
 }
 
 #qrcode {
-    bottom: 125px;
-    left: 69px;
+    bottom: 116px;
+    left: 89px;
 }
 
 #fake-qrcode {
@@ -339,8 +339,8 @@ $cover-sprite-dimensions: true;
 }
 
 #qr-des {
-    bottom: 181px;
-    left: 300px;
+    bottom: 169px;
+    left: 342px;
     $qrdes: '../images/qr-des.png';
     width: image-width($qrdes);
     height: image-height($qrdes);
